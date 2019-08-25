@@ -39,7 +39,7 @@ If the sparsity the below some threshold, we choose Smart rehash, and over the t
 
 ### 3. Executor-expression mechanism
 
-Expression folding is an excellent feature for reducing function calls and iteration. Unfortunately, there is no expression folding in our math lib. However, we provide an executor-expression mechanism to allow use do expression folding manually. 
+Expression folding is an excellent feature for reducing function calls and iteration. Unfortunately, there is no expression folding in our math lib. However, we provide an executor-expression mechanism to allow user to do expression folding manually. 
 
 for example, we can fold the expression in the red box manually to reduce calculation.
 ![figure3](./docs/imgs/figure03.jpg)
